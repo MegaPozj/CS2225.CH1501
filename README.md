@@ -1,7 +1,7 @@
 # Tìm kiếm ảnh thời trang
 
 ## Introduction
-![alt text](static/images/markdown/structure.PNG)
+![alt text](Repo/static/images/markdown/structure.PNG)
 
 Tìm kiếm hình ảnh thời trang lấy cảm hứng từ việc khách hàng mong muốn khám phá sản phẩm bằng cách thay vì tìm kiếm văn bản mà chuyển sang bằng ảnh của mẫu trang phục tương tự. Hệ thống sử dụng AI để hiểu ngữ cảnh của hình ảnh và trả về danh sách các kết quả liên quan. Hệ thống bao gồm ba thành phần. Đầu tiên, nó phát hiện và phân loại các mặt hàng quần áo trong hình ảnh bằng cách sử dụng Mask R-CNN. Tiếp theo đó, các đặc trưng trong bức ảnh sẽ được rút trích thông qua mô hình RestNet-152. Các đặc trưng này sẽ được lưu trữ trong cơ sở dữ liệu và sử dụng cho mục đích truy vấn hình ảnh. Khi ta đưa vào một bức ảnh sử dụng làm câu truy truy vấn, quần áo trong bức ảnh đó sẽ được nhận dạng, rút trích đặc trưng và so khớp với các đặc trưng trong cơ sở dữ liệu để tìm ra kết quả phù hợp với nhu cầu thông tin của người dùng.
 
@@ -63,11 +63,5 @@ python3 ./references/generate_embeds.py
 python3 app-run.py
 ```
 
-<<<<<<< HEAD
-
 ## Video Demo
 [Video Demo](.Repo/demo.mov)
-=======
-## Video Demo
-[Video Demo](./demo.mov)
->>>>>>> parent of 8e917be8... update readme
